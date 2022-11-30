@@ -1,4 +1,4 @@
 # Java-Extra
 ## coole java
 
-(live view)[http://127.0.0.1:5500/Java-Extra/web/index.html]
+[live view](https://34967.hosts1.ma-cloud.nl/jsa/)
