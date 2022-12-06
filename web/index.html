@@ -8,9 +8,39 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Les 1</h1>
+    <h1 id="kopje">Les 1</h1>
+    <p id="mkViolet">Maak achtergrond violet</p>
+    <p id="mkYellow">Maak achtergrond Geel</p>
     <script>
-        console.log("henlo")
+        const kopje = document.getElementById("kopje");
+        const mkViolet = document.getElementById('mkViolet');
+        const mkYellow = document.getElementById('mkYellow');
+
+        kopje.style.backgroundColor = "purple";
+
+
+        kopje.addEventListener('click', voeruitKopje);
+        mkViolet.addEventListener('click', voeruitViolet);
+        mkYellow.addEventListener('click', voeruitYellow);
+
+        function voeruitYellow(){
+            document.body.style.backgroundColor = "Yellow";
+            document.body.style.color = "Black";
+            kopje.style.backgroundColor = "Black";
+            kopje.style.color = "Yellow";
+        }
+        function voeruitKopje(){
+            kopje.style.backgroundColor = "white";
+            kopje.style.color = "violet";
+        }
+        function voeruitViolet(){
+            document.body.style.backgroundColor = "Violet";
+            document.body.style.color = "white";
+            kopje.style.backgroundColor = "Black";
+            kopje.style.color = "white";
+        }
+
+
     </script>
 </body>
 </html>
