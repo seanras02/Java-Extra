@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(200, 235, 161);
+}
+
+#Koelkast {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+section {
+    border: 2px solid burlywood;
+    padding: 10px;
+    min-height: 200px;
+
+}
+
+h2 {
+    margin: 0 0 10px 0; /* TOP, RIGHT, BOTTOM, LEFT*/
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(124, 81, 43);
+    color: black;
+    font-size: 18px;
+    border: 2px solid rgb(184, 69, 12);
+}
