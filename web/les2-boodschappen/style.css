@@ -22,10 +22,18 @@ h2 {
     margin: 0 0 10px 0; /* TOP, RIGHT, BOTTOM, LEFT*/
 }
 
+.rood {
+    color: red;
+}
+
+.groen {
+    color: green;
+}
+
 button{
     padding: 10px 20px;
-    background-color: rgb(124, 81, 43);
+    background-color: rgb(192, 100, 19);
     color: black;
     font-size: 18px;
-    border: 2px solid rgb(184, 69, 12);
+    border: 2px solid rgb(47, 24, 12);
 }
