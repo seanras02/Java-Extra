@@ -1,0 +1,32 @@
+#container{
+    background-color: blanchedalmond;
+    width: 700px;
+    height: 500px;
+    margin: 100px auto auto auto;
+    border-radius: 20px;
+}
+#container h2{ 
+    margin-left: 20%;
+}
+
+button:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+    transition: 0.1s transform;
+    border-radius: 10px;
+}
+
+button{
+    margin: 5%;
+    margin-top: 20%;
+    border-radius: 20px;
+    background-color: rgb(194, 154, 154);
+    color: rgb(0, 0, 0);
+}
+
+img{
+    border-radius: 20px;
+    margin-left: 20%;
+}
+
+
