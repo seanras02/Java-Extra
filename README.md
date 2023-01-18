@@ -9,3 +9,4 @@
 
 [Opdracht 4 - SEASONS](https://34967.hosts1.ma-cloud.nl/jsa/les4-seasons)
 
+[Opdracht 5 - SILVER BULLET]()
