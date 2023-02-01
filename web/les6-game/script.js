@@ -128,25 +128,20 @@ const places = [
 ];
 
 function showLocation(){
-    // maak de html-blokken leeg
     navBox.innerHTML = "";
     optionsBox.innerHTML = "";
-    
-    // zet je juiste omschrijving in het description blok in de html
+
+
     descriptionBox.innerHTML = places[currentPosition].description;
 
-    // zet het juiste plaatje wat hoort bij de positie neer
     myImg.src = places[currentPosition].image;
 
-    // ga voor de huide plaats alle elementen in de eigenschap options na
     let possibleDirections = places[currentPosition].options.map((option,i) => { 
 
-        // plaats alle opties in een <p> en plaats die in de optionsBox 
         let directionsP = document.createElement("p");
-        directionsP.innerHTML = "<b>" + option.direction + "</b>: naar de " + places[option.destination].name;
+        directionsP.innerHTML = "<b>" + option.direction + "</b>: naar:  " + places[option.destination].name;
         optionsBox.appendChild(directionsP);
 
-        // maak voor iedere direction een button aan
 
         let btn = document.createElement("input");
         btn.setAttribute("type","button");
@@ -154,11 +149,10 @@ function showLocation(){
         btn.setAttribute("value",option.direction);
         navBox.appendChild(btn);
 
-        // maak voor ieder button een click-handler aan
+
         btn.addEventListener("click", ()=>{
             currentPosition = option.destination;
 
-            //laat van de gekozen destination de lokatie zien
             showLocation();
         });
     });
