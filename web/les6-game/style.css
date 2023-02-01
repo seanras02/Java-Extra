@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height:100vh;
-    background: linear-gradient(to right, #0e489f, #010311);
+    background: linear-gradient(to right, #8c1005, #010311);
     font-family: sans-serif;
 
 }
@@ -12,12 +12,11 @@ body{
 
 #container{
     width: max(50vw, 700px);
-    background:linear-gradient(rgb(255, 106, 6), black);
+    background:linear-gradient(rgb(224, 107, 99), rgb(255, 255, 255));
     padding: 10px;
     display: flex;
     gap:40px;
     border-radius:20px;
-    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
 img{
@@ -26,6 +25,10 @@ img{
     padding: 40px;
 }
 
+#descriptionBox{
+    font-size: 150%;
+    font-style:oblique;
+}
 
 
 #imageBox{
@@ -38,25 +41,15 @@ img{
     gap: 20px;
 }
 
-#myInput{
-    padding:5px 10px;
-    border:none;
-    border-bottom: 2px solid #00c694;
-    font-size:20px;
-    width:90%;
-}
 
-#myInput:focus{
-    outline: none;
-
-}
 
 .inputButton{
     background: linear-gradient(to top left,  #0e489f, black);
-    width: 100px;
+    width: 200px;
+    height: 50px;
     border:none;
     padding:5px;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 10px;
     color: #eee;
     margin: 5px;
