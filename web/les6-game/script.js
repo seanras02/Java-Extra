@@ -10,7 +10,7 @@ let currentPosition = 1;
 
 const places = [
     {
-        "name":"Ingang van gang (1)",
+        "name":"Ingang van gang",
         "description":"u staat op de trap richting de s̵̛̛̪͕̼͚̖̩̠̲̘̪̠̳̞̙̃̿̎̒͊̇͊͒̄̓͗̉̋͘͜ç̶̛̭̥͔͕̙̣̣̣̭̠̳̼̤̰͊̒̆͆̅͆̈́̅̅̓͋͂̑̑ͅạ̶̼̬̭̭̠̣̬͗̏̽̿̀̑͛̉̅̆̇̎̓͒͊̌̇̊̌̽̽͐̕̚͜͝͝͝r̶̡̰̙̞͓̗̙̖͓̱̭̹͓̼͉͈̈́͌̌̐̈́̆̎́̑̆͋̃̕̚͜͠y̶̢̜̥̥̻̳͈̥̘̲̮̑̔́̑͒̐͗͂̄͋́̓̈́̉̿̈́̕͝ͅ  verdieping",
         "image":"img/1",
         "options":[
@@ -18,7 +18,7 @@ const places = [
         ]
     },
     {
-        "name":"TRAP",
+        "name":"Trap",
         "description":"Gang van de s̵̛̛̪͕̼͚̖̩̠̲̘̪̠̳̞̙̃̿̎̒͊̇͊͒̄̓͗̉̋͘͜ç̶̛̭̥͔͕̙̣̣̣̭̠̳̼̤̰͊̒̆͆̅͆̈́̅̅̓͋͂̑̑ͅạ̶̼̬̭̭̠̣̬͗̏̽̿̀̑͛̉̅̆̇̎̓͒͊̌̇̊̌̽̽͐̕̚͜͝͝͝r̶̡̰̙̞͓̗̙̖͓̱̭̹͓̼͉͈̈́͌̌̐̈́̆̎́̑̆͋̃̕̚͜͠y̶̢̜̥̥̻̳͈̥̘̲̮̑̔́̑͒̐͗͂̄͋́̓̈́̉̿̈́̕͝ͅ  verdieping",
         "image":"img/1.jpg",
         "options":[
@@ -34,7 +34,7 @@ const places = [
         ]
     },
     {
-        "name":"RECHTDOOR",
+        "name":"ingang gang",
         "description":"u bent in de docentenkamer",
         "image":"img/3.jpg",
         "options":[
@@ -44,7 +44,7 @@ const places = [
         ]
     },
     {
-        "name":"4",
+        "name":"???",
         "description":"u staat in de gang van de eerste etage met een man dat aan het twerken is...",
         "image":"img/4.jpg",
         "options":[
@@ -52,7 +52,7 @@ const places = [
         ]
     },
     {
-        "name":"5",
+        "name":"Bord lokaal",
         "description":"Ominous lokaal met een bord",
         "image":"img/5.jpg",
         "options":[
@@ -60,7 +60,7 @@ const places = [
         ]
     },
     {
-        "name":"6",
+        "name":"Gang",
         "description":"je loopt verder.",
         "image":"img/6.jpg",
         "options":[
@@ -70,7 +70,7 @@ const places = [
         ]
     },
     {
-        "name":"7",
+        "name":"risky",
         "description":"Je ziet een lokaal maar, je wilt geen risico nemen om binnen te gaan.",
         "image":"img/7.jpg",
         "options":[
@@ -78,7 +78,7 @@ const places = [
         ]
     },
     {
-        "name":"8",
+        "name":"Waarom?",
         "description":"lokaal met prullenbak bij de voorkant",
         "image":"img/8.jpg",
         "options":[
@@ -86,25 +86,24 @@ const places = [
         ]
     },
     {
-        "name":"9",
+        "name":"Gang",
         "description":"Je gaat door nog een deur heen",
         "image":"img/9.jpg",
         "options":[
             {"direction":"rechts","destination":11},
-            {"direction":"rechtdoor","destination":12}           
+            {"direction":"rechtdoor","destination":10}           
         ]
     },
     {
-        "name":"10",
+        "name":"Gang",
         "description":"u staat in het examenlokaal",
         "image":"img/10.jpg",
         "options":[
-            {"direction":"noord","destination":11},
-            {"direction":"west","destination":11}           
+            {"direction":"rechtdoor","destination":12}          
         ]
     },
     {
-        "name":"11",
+        "name":"spooky",
         "description":"Je staat bij het lokaal maar, je hoort iemand schreeuwen...",
         "image":"img/11.jpg",
         "options":[
@@ -112,15 +111,15 @@ const places = [
         ]
     },
     {
-        "name":"12",
+        "name":"Gang naar exit",
         "description":"je kijkt rond maar, je moet rechtdoor lopen...",
         "image":"img/12.jpg",
         "options":[
-            {"direction":"noord","destination":13},          
+            {"direction":"EXIT","destination":13},          
         ]
     },
     {
-        "name":"13",
+        "name":"Exit!!!",
         "description":"je bent er eindelijk maar, je voelt je heel zwak...?",
         "image":"img/13.jpg",          
         
