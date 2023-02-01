@@ -9,4 +9,6 @@
 
 [Opdracht 4 - SEASONS](https://34967.hosts1.ma-cloud.nl/jsa/les4-seasons)
 
-[Opdracht 5 - SILVER BULLET]()
+[Opdracht 5 - SILVER BULLET](https://34967.hosts1.ma-cloud.nl/jsa/les5-silver_bullet)
+
+[Opdracht 6 - GAME - EINDOPDRACHT](https://34967.hosts1.ma-cloud.nl/jsa/)
